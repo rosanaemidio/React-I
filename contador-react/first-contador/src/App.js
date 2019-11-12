@@ -2,16 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+class Contador extends React.Component{
 
-const contador = 0;
-
-const verificaContador = () =>{
-  if (contador === 0){
-    return <p>Contador não inciado</p>
-  }else{
-    return <p>Contador iniciado</p>
-  }
+  
 }
+
+
 function App() {
   return (
     <div className="App">
