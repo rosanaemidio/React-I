@@ -1,10 +1,16 @@
 import React from 'react';
+import Titulo from 'react';
+
+
 
 export default function CriaCards(props) {
   return (
     <div className="previsao">
-      <h2 className="previsao__data">{props.data}</h2>
-      <p className="previsao__resumo">{props.resumo}</p>
+      <Titulo
+      data = "25/08/2020"
+      resumo = "Ensolarado"
+
+      />
 
       <img src={props.img} className="previsao__img" />
 

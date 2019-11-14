@@ -1,7 +1,9 @@
 import React from 'react';
 import Solzin from './img/sol.png';
 import Nuvenzin from './img/nuvens.png';
-import CriaCards from './componentes/CriaCards'
+import CriaCards from './componentes/CriaCards';
+
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -10,8 +12,8 @@ function App() {
   return (
     <div className="previsao-container">
           <CriaCards
-            data = "25/08/2020"
-            resumo = "Ensolarado"
+          
+            
             img = {Solzin}
             temperatura ={{
               max : 32,
